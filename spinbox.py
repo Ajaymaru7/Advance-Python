@@ -1,0 +1,9 @@
+from tkinter import *
+
+root = Tk()
+root.geometry("300x200")
+w = Label(root, text="Welcome to dr.subhash university", font="500")
+w.pack()
+sp = Spinbox(root, from_=0, to=20)
+sp.pack()
+root.mainloop()
